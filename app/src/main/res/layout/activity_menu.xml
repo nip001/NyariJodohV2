@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".pages.MenuActivity">
+
+    <TextView
+        android:id="@+id/txtHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnDataCalon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Calon" />
+
+    <Button
+        android:id="@+id/btnPilihCalon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Calon" />
+
+    <Button
+        android:id="@+id/btnKeluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar" />
+</LinearLayout>
